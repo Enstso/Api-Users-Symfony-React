@@ -1,0 +1,11 @@
+
+###> symfony/framework-bundle ###
+api-users/.env.local
+api-users/.env.local.php
+api-users/.env.*.local
+api-users/config/secrets/prod/prod.decrypt.private.php
+api-users/public/bundles/
+api-users/var/
+api-users/vendor/
+api-users/mysql-data/
+###< symfony/framework-bundle ###
