@@ -1,79 +1,75 @@
-## Projet de Gestion des Utilisateurs
+## User Management Project
 
-Ce projet consiste en la création d'une API utilisant Symfony pour la gestion des utilisateurs avec des opérations CRUD (Create, Read, Update, Delete). Le front-end a été développé en React pour interagir avec cette API. 
+This project involves the creation of an API using Symfony for user management with CRUD (Create, Read, Update, Delete) operations. The front-end was developed in React to interact with this API.
 
 
-## Instructions d'Utilisation
+## Usage Instructions
 
-### Prérequis
+### Prerequisites
 
 - Docker
 - Node.js
 
-### Installation et Exécution
+### Installation and Running
 
-1. Cloner le repository du projet.
-2. Accéder au dossier `api-symfony` et lancer le conteneur Symfony avec Docker :
+1. Clone the project repository.
+2. Go to the `api-users` folder and start the Symfony container with Docker :
     ```
     docker-compose up
     ```
-3. Accéder au dossier `front-react` et installer les dépendances Node.js :
+3. Navigate to the `front-react-users` and install the Node.js dependencies :
     ```
     npm install
     ```
-4. Lancer l'application React :
+4. Run the React application :
     ```
     npm start
     ```
-5. Accéder à l'application dans votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000).
+5. Open the application in your browser at [http://localhost:3000](http://localhost:3000).
 
-## Technologies Utilisées
+## Technologies Used
 
-- **Symfony** : Framework PHP utilisé pour l'API.
-- **React** : Bibliothèque JavaScript utilisée pour le front-end.
-- **MySQL** : Base de données relationnelle pour stocker les données des utilisateurs.
-- **Docker** : Pour la gestion des conteneurs.
-- **Webpack** : Pour la compilation et le packaging du front-end React.
+- **Symfony** : PHP framework used for the API.
+- **React** : JavaScript library used for the front-end.
+- **MySQL** : Relational database for storing user data.
+- **Docker** : For container management.
+- **Webpack** : For compiling and bundling the React front-end.
 
 
 
-### Fonctionnalités de l'API Symfony :
+### Symfony API Features :
 
-L'API Symfony offre les fonctionnalités CRUD suivantes pour la gestion des utilisateurs :
+The Symfony API offers the following CRUD features for user management :
 
-- **Create** : Permet de créer un nouvel utilisateur avec les informations fournies.
-- **Read** : Permet de récupérer les détails d'un utilisateur spécifique ou la liste de tous les utilisateurs.
-- **Update** : Permet de mettre à jour les informations d'un utilisateur existant.
-- **Delete** : Permet de supprimer un utilisateur de la base de données.
+- **Create** : Allows the creation of a new user with the provided information.
+- **Read** : Allows fetching details of a specific user or a list of all users.
+- **Update** : Allows updating the information of an existing user.
+- **Delete** : Allows deleting a user from the database.
 
-### Fonctionnalités du Front-end React :
+### React Front-end Features :
 
-Le front-end React offre une interface utilisateur conviviale pour interagir avec l'API Symfony. Il comprend les fonctionnalités suivantes :
+The React front-end provides a user-friendly interface to interact with the Symfony API. It includes the following features :
 
-- Affichage de la liste des utilisateurs.
-- Formulaire pour créer un nouvel utilisateur.
-- Affichage des détails d'un utilisateur spécifique.
-- Possibilité de mettre à jour les informations d'un utilisateur.
-- Fonctionnalité de suppression d'un utilisateur.
+- Displaying a list of users.
+- A form to create a new user.
+- Viewing details of a specific user.
+- Ability to update an existing user's information.
+- Functionality to delete a user.
 
 ### Structure du Projet :
 
 ```csharp
 back-api-users/
 │
-├── api-symfony/ # Dossier contenant le code source de l'API Symfony
-│ ├── src/ # Code source Symfony
-│ ├── config/ # Configuration Symfony
+├── api-symfony/  # Folder containing the Symfony API source code
+│ ├── src/ # Symfony source code
+│ ├── config/ # Symfony configuration
 │ └── ...
 │
-└── front-react-users/ # Dossier contenant le code source du front-end React
-├── src/ # Code source React
-├── node_modules/ # Dépendances Node.js
-├── package.json # Configuration du projet Node.js
+└── front-react-users/ # Folder containing the React front-end source code
+├── src/ # React source code
+├── node_modules/ # Node.js dependencies
+├── package.json # Node.js project configuration
 └── ...
 ```
-
-## Auteur
-
-Enstso Janvier
 
